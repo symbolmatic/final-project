@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FireMoney</title>
+  <link rel="shortcut icon" href="/img/fire.png" type="image/png">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+
+</head>
+
+<body>
+
+  <!-- Header Start -->
+  <div class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__block">
+          <a class="header__logo" href="/">
+            <img src="./img/svg/firemoney_logo.svg" alt="Header Logo" class="header__logo-pic">
+          </a>
+        </div>
+        <nav class="header__nav">
+          <a class="header__nav-link active">Почему мы?</a>
+          <a class="header__nav-link">О сервисе</a>
+          <a class="header__nav-link">Вопросы-ответы</a>
+        </nav>
+        <div class="header__block">
+          <button class="header__button" type="button">Bход <span class="hidden">личный</span> кабинет</button>
+        </div>
+        <div class="header__block">
+          <div class="header__lang hidden">
+            <a href="#!" class="header__lang-link active">Ru</a>
+            <a href="#!" class="header__lang-link">En</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+
+  <main class="main">
+
+
+    <!-- Intro Start -->
+    <section class="intro container-fluid">
+      <div class="container">
+        <div class="row intro__wrapper d-flex justify-content-evenly">
+
+          <div class="col intro__content">
+            <div class="row intro__block-1">
+              <p class="intro_anons">
+                Горячие предложения
+              </p>
+              <h1 class="intro__title">Быстрых займов по всей России!
+              </h1>
+              <p class="intro__subtitle1">
+                Без проверки кредитной истории.
+                От 1 000 ₽ за 15 минут.
+              </p>
+              <p class="intro__subtitle2">
+                Внимание! Услуга обработки заявки платная
+                и составляет от 98 ₽ до 398 ₽ раз в неделю
+              </p>
+            </div>
+            <img src="./img/intro_lady.jpg" alt="" class="intro__block-pic hidden">
+          </div>
+          <div class="col">
+          </div>
+          <div class=" col intro__block-2">
+            <div class="intro__range-wrapper">
+              <div class="intro__range-box">
+                <p class="intro__range-title">Cумма кредита</p>
+                <div class="range-slider">
+                  <span id="rs-bullet" class="rs-label">65 000 ₽ </span>
+                  <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="200">
+                  <div class="box-minmax d-flex justify-content-between">
+                    <span class="range__subtitle">1 000 ₽</span><span class="range__subtitle">100 000 ₽</span>
+                  </div>
+                </div>
+                <p class="intro__range-title">Cрок кредита</p>
+                <div class="range-slider">
+                  <span id="rs-bullet" class="rs-label">8 дней</span>
+                  <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="200">
+                  <div class="box-minmax d-flex justify-content-between">
+                    <span class="range__subtitle">3</span><span class="range__subtitle">30</span>
+                  </div>
+                </div>
+                <button class="intro__button intro__button-position">Оформить заявку</button>
+                <div class="intro__range-subtitles">
+                  <div class="row row-cols-2 mt-5">
+                    <div class="mb-4 col">
+                      <p class="mb-1 row__subtitle">Вы берете</p>
+                      <h6 class="row__title">20 000 ₽ </h6>
+                    </div>
+                    <div class="mb-4 col">
+                      <p class="mb-1 row__subtitle">К возврату</p>
+                      <h6 class="row__title">25 650 ₽ </h6>
+                    </div>
+                    <div class="mb-4 col">
+                      <p class="mb-1 row__subtitle">Дата возврата</p>
+                      <h6 class="row__title">08 января 2022</h6>
+                    </div>
+                    <div class="mb-4 col">
+                      <p class="mb-1 row__subtitle">Ежемесячный платеж</p>
+                      <h6 class="row__title">5 650 ₽ </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Intro End -->
+
+
+    <!-- Offer Start -->
+    <section class="offer grey-bg">
+      <div class="container">
+        <div class="offer_wrapper">
+          <h3 class="offer__title page__title">Лучшие предложения</h3>
+          <div class="cards">
+            <div class="row row-cols-1 row-cols-md-3">
+              <div class="col box__hover">
+                <div class="card align-content-center">
+                  <div class="badge"><span class="badge__content">Lite</span></div>
+                  <div class="card-body">
+                    <h3 class="offer__card-title mb-3">15 000 ₽ <span class="title-blk">на</span> 7 <span
+                        class="title-blk">дней</span> </h3>
+                    <div>
+                      <img src="./img/svg/calendar.svg" alt="Calendar">
+                      <p class="offer__card-subtitle d-inline-block ms-2 mb-2">Дата возврата: <span class="title-blk">
+                          12 января 2022</span></p>
+                    </div>
+                    <div>
+                      <img src="./img/svg/currency.svg" alt="Currency">
+                      <p class="offer__card-subtitle d-inline-block ms-2 mb-2">К возврату: <span class="title-blk">45
+                          500 ₽</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col box__hover">
+                <div class="card align-content-center">
+                  <div class="badge"><span class="badge__content basic">Basic</span></div>
+                  <div class="card-body">
+                    <h3 class="offer__card-title mb-3 orange-title">25 000 ₽ <span class="title-blk">на</span> 1 <span
+                        class="title-blk">дней</span> </h3>
+                    <div>
+                      <img src="./img/svg/calendar.svg" alt="Calendar">
+                      <p class="offer__card-subtitle d-inline-block ms-2 mb-2">Дата возврата: <span class="title-blk">
+                          12 января 2022</span></p>
+                    </div>
+                    <div>
+                      <img src="./img/svg/currency.svg" alt="Currency">
+                      <p class="offer__card-subtitle d-inline-block ms-2 mb-2">К возврату: <span class="title-blk">45
+                          500 ₽</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col box__hover">
+                <div class="card align-content-center">
+                  <div class="badge"><span class="badge__content pro">PRO</span></div>
+                  <div class="card-body">
+                    <h3 class="offer__card-title mb-3 red-title">45 000 ₽ <span class="title-blk">на</span> 1 <span
+                        class="title-blk">дней</span> </h3>
+                    <div>
+                      <img src="./img/svg/calendar.svg" alt="Calendar">
+                      <p class="offer__card-subtitle d-inline-block ms-2 mb-2">Дата возврата: <span class="title-blk">
+                          12 января 2022</span></p>
+                    </div>
+                    <div>
+                      <img src="./img/svg/currency.svg" alt="Currency">
+                      <p class="offer__card-subtitle d-inline-block ms-2 mb-2">К возврату: <span class="title-blk">45
+                          500 ₽</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="offer__subtitle page__subtitle">* Расчёт не является публичное офертой и может отличаться от
+            реальной ставки
+            кредитора</p>
+          <h3 class="offer__title page__title mt-5">Как получить деньги</h3>
+          <div class="row row-cols-1 row-cols-md-4 row_paddind align-items-center">
+            <div class="col d-flex justify-content-evenly">
+              <div class="h-100">
+                <img src="./img/svg/hand.svg" alt="">
+              </div>
+            </div>
+            <div class="col d-flex justify-content-evenly">
+              <img src="./img/svg/paper.svg" alt="">
+            </div>
+            <div class="col d-flex justify-content-evenly">
+              <img src="./img/svg/person.svg" alt="">
+            </div>
+            <div class="col d-flex justify-content-evenly">
+              <img src="./img/svg/wallet.svg" alt="">
+            </div>
+          </div>
+          <div class="range">
+            <div class="container">
+              <div class="accordion" id="accordionExample">
+                <div class="steps">
+                  <progress id="progress" value=10 max=100></progress>
+                  <div class="step-item">
+                    <button class="step-button text-center" style="padding: 0%; margin-top: 33px; margin-left: 1rem;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      1
+                    </button>
+                    <div class="step-title" style="margin-left: 1rem;">
+                      Выберите сумму <br> займа
+                    </div>
+                  </div>
+                  <div class="step-item">
+                    <button class="step-button text-center collapsed"
+                      style="padding: 0%; margin-top: 33px; margin-left: 5rem; color: grey;" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+                      2
+                    </button>
+                    <div class="step-title" style="margin-left: 5rem;">
+                      Заполните <br> анкету
+                    </div>
+                  </div>
+                  <div class="step-item">
+                    <button class="step-button text-center collapsed"
+                      style="padding: 0%; margin-top: 33px; margin-left: 4rem; color: grey;" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
+                      3
+                    </button>
+                    <div class="step-title" style="margin-left: 4rem;">
+                      Дождитесь рассмотрения <br> заявки
+                    </div>
+                  </div>
+                  <div class="step-item">
+                    <button class="step-button text-center collapsed"
+                      style="padding: 0%; margin-top: 33px; color: grey;" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      4
+                    </button>
+                    <div class="step-title">
+                      Получите деньги любым <br> удобным способом
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="intro__button button-position" style='margin-left:40%;'>Оформить заявку</button>
+        </div>
+      </div>
+    </section>
+    <!-- Offer End -->
+
+
+    <!-- Payment Start -->
+    <section class="payment">
+      <div class="container">
+        <h3 class="payment__title page__title">Способы получения</h3>
+        <p class="page__subtitle">На карту QIWI Yandex Деньги Наличные</p>
+        <div class="row row-cols-1 row-cols-md-5 d-flex justify-content-center gap-5">
+          <div class="col payment__card">
+            <div class="">
+              <img src="./img/svg/yandex.svg" alt="">
+            </div>
+          </div>
+          <div class="col payment__card">
+            <img src="./img/svg/qiwi.svg" alt="">
+          </div>
+          <div class="col payment__card">
+            <img src="./img/svg/visa.svg" alt="">
+          </div>
+          <div class="col payment__card">
+            <img src="./img/svg/master.svg" alt="">
+          </div>
+          <div class="col payment__card">
+            <img src="./img/svg/cash.svg" alt="">
+          </div>
+        </div>
+        <button class="intro__button button-position" style='margin-left:40%;'>Оформить заявку</button>
+      </div>
+
+      </div>
+    </section>
+    <!-- Payment End -->
+
+
+    <!-- WhyUs Start -->
+    <section class="why-us grey-bg">
+      <div class="container">
+        <div class="why-us__wrapper ">
+          <h3 class="why-us-title page__title">Почему выбирают нас</h3>
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+            <div class="col ">
+              <div class="card card__filter">
+                <div class="card__wrap">
+                  <img src="./img/why-1.png" class="card-img-top mt-5 card__img-style" alt="WhyUs Lady Photo">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-styles">Екатерина Романова, 26 лет</h5>
+                    <img src="./img/svg/location.svg" alt="Location" class="card__thum">
+                    <p class="card-location d-inline-block ms-1 mb-3">г. Москва</p>
+                    <p class="why-us__card-subtitle" align="justify">Для того, чтобы воспользоваться услугой, вам
+                      необходимо лишь
+                      заполнить анкету на
+                      сайте, все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш
+                      сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история и имеются ли
+                      текущие
+                      просрочки.</p>
+                    <img src="./img/svg/stars.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-stretch">
+              <div class="card card__filter">
+                <div class="card__wrap">
+                  <img src="./img/why-2.png" class="card-img-top mt-5 card__img-style" alt="WhyUs Lady Photo">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-styles">Татьяна Котова, 36 лет</h5>
+                    <img src="./img/svg/location.svg" alt="Location" class="card__thum">
+                    <p class="card-location d-inline-block ms-1 mb-3">г. Санкт‑Петербург</p>
+                    <p class="why-us__card-subtitle" align="justify">Для того, чтобы воспользоваться услугой, вам
+                      необходимо лишь
+                      заполнить анкету на
+                      сайте, все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш
+                      сервис работает со всеми клиентами.</p>
+                    <img src="./img/svg/stars.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card__filter">
+                <div class="card__wrap">
+                  <img src="./img/why-3.png" class="card-img-top mt-5 card__img-style" alt="WhyUs Lady Photo">
+                  <div class="card-body">
+                    <h5 class="card-title card-title-styles">Роман Курцын, 30 лет</h5>
+                    <img src="./img/svg/location.svg" alt="Location" class="card__thum">
+                    <p class="card-location d-inline-block ms-1 mb-3">г. Нижний Новгород</p>
+                    <p class="why-us__card-subtitle" align="justify">Для того, чтобы воспользоваться услугой, вам
+                      необходимо лишь
+                      заполнить анкету на
+                      сайте, все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш
+                      сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история и имеются ли
+                      текущие
+                      просрочки.</p>
+                    <img src="./img/svg/stars.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="why-us__buttons">
+            <button class="intro__button button-position" style='margin-left:40%;'>Оформить заявку</button>
+            <button type="button" class="btn btn-outline outline__bth">Все отзывы</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- WhyUs End -->
+
+
+    <!-- Customer Start -->
+    <div class="customer">
+      <div class="container">
+        <div class="customer_wrapper">
+          <h3 class="customer__title page__title">Наши клиенты</h3>
+          <div class="cards">
+            <div class="row row-cols-1 row-cols-md-3">
+              <div class="col">
+                <div class="card align-content-center">
+                  <div class="card-body d-flex justify-content-evenly card__rotate-box">
+                    <img class="card__rotate-item" src="./img/svg/cancel.svg" alt="Cancel Sign">
+                    <div>
+                      <h3 class="customer__card-title mb-2">Екатерина Романова</h3>
+                      <div>
+                        <p class="customer__card-subtitle d-inline-block mb-2">Получила отказ 45 сек назад</p>
+                      </div>
+                      <div>
+                        <img src="./img/svg/location.svg" alt="Currency">
+                        <p class="customer__card-subtitle-city d-inline-block ms-2 mb-2">г. Москва</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card align-content-center">
+                  <div class="card-body d-flex justify-content-evenly card__rotate-box">
+                    <img class="card__rotate-item" src="./img/svg/add.svg" alt="Plus Sign">
+                    <div>
+                      <h3 class="customer__card-title mb-2">Игорь Николаев</h3>
+                      <div>
+                        <p class="customer__card-subtitle d-inline-block mb-2">Взял 5 000 ₽ 2 мин назад</p>
+                      </div>
+                      <div>
+                        <img src="./img/svg/location.svg" alt="Currency">
+                        <p class="customer__card-subtitle-city d-inline-block ms-2 mb-2">г. Москва</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card align-content-center">
+                  <div class="card-body d-flex justify-content-evenly card__rotate-box">
+                    <img class="card__rotate-item" src="./img/svg/download.svg" alt="Download Sign">
+                    <div>
+                      <h3 class="customer__card-title mb-2">Светлана Борисовна</h3>
+                      <div>
+                        <p class="customer__card-subtitle d-inline-block mb-2">Внес на счет 12 000 ₽ 45 сек назад</p>
+                      </div>
+                      <div>
+                        <img src="./img/svg/location.svg" alt="Currency">
+                        <p class="customer__card-subtitle-city d-inline-block ms-2 mb-2">г. Москва</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Customer End -->
+
+
+
+    <!-- Services Start -->
+    <div class="services">
+      <div class="container">
+        <div class="services__wrap">
+          <h3 class="services__title page__title">О сервисе</h3>
+          <div class="row mb-5 d-flex align-item-center">
+            <div class="col-sm-6">
+              <div class="card card-box">
+                <div class="card-body card-body-filter">
+                  <h5 class="card-title card-title-style">Все возможные риски и убытки,
+                    и условия выдачи кредитов.</h5>
+                  <p class="card-text" align="justify"> О вашим анкетным данным сервис автоматически выбирает наиболее
+                    выгодные
+                    предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    В случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги! <br> <br>
+
+                    Ваша заявка будет отправляться в МФО с наибольшей вероятностью одобрения в данный момент времени с
+                    соблюдением необходимых пауз между отправками. При предварительном одобрении кредитные организации
+                    сами связываются с вами, и вам необходимо лишь подтвердить свое согласие на займ и забрать деньги.
+                    Список МФО, в которые была отправлена ваша заявка, и другую необходимую информацию о работе в рамках
+                    платной услуги вы можете наблюдать в личном кабинете, в разделе Отчеты
+                    Стоимость услуги всего 1499 рублей. Для вашего удобства оплата услуги происходит в рассрочку: четыре
+                    платежа по 374.8 рублей каждые пять дней. Оплачивая услугу, вы получаете доступ к функциональности
+                    сервиса сроком на 1 год (365 дней) с момента активации услуги. <br> <br>
+
+                    Если вы получили займ и более не нуждаетесь в услугах сервиса - вы можете остановить обработку вашей
+                    заявки самостоятельно и в любое время в разделе Отписаться от услуг.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex align-items-stretch">
+              <div class="card card-box">
+                <div class="card-body card-body-filter">
+                  <h5 class="card-title card-title-style">Что будет при просрочке</h5>
+                  <p class="card-text" align="justify"> О вашим анкетным данным сервис автоматически выбирает наиболее
+                    выгодные
+                    предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    В случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги! <br> <br>
+
+                    Ваша заявка будет отправляться в МФО с наибольшей вероятностью одобрения в данный момент времени с
+                    соблюдением необходимых пауз между отправками. При предварительном одобрении кредитные организации
+                    сами связываются с вами, и вам необходимо лишь подтвердить свое согласие на займ и забрать деньги.
+                    Список МФО, в которые была отправлена ваша заявка, и другую необходимую информацию о работе в рамках
+                    платной услуги вы можете наблюдать в личном кабинете, в разделе Отчеты
+                    Стоимость услуги всего 1499 рублей. Для вашего удобства оплата услуги происходит в рассрочку: четыре
+                    платежа по 374.8 рублей каждые пять дней. Оплачивая услугу, вы получаете доступ к функциональности
+                    сервиса сроком на 1 год (365 дней) с момента активации услуги. <br> <br>
+
+                    Если вы получили займ и более не нуждаетесь в услугах сервиса - вы можете остановить обработку вашей
+                    заявки самостоятельно и в любое время в разделе Отписаться от услуг.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services End -->
+
+
+
+    <!-- FAQ Start -->
+    <div class="faq grey-bg">
+      <div class="container">
+        <div class="faq__wrap">
+          <h3 class="faq__title page__title">Вопросы-ответы</h3>
+          <div class="accordion accordion-flush border-0" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed faq__button-title" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Как долго обрабатывается заявка?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="faq__subtitle">
+                    Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает
+                    непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed faq__button-title" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Как погасить полученный займ?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="faq__subtitle">
+                    Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает
+                    непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed faq__button-title" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Как получить деньги?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="faq__subtitle">
+                    Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает
+                    непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed faq__button-title" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  География сервиса?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="faq__subtitle">
+                    Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает
+                    непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed faq__button-title" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Как остановить обработку заявки?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="faq__subtitle">
+                    Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает
+                    непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed faq__button-title" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                  Какова стоимость услуги?
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="faq__subtitle">
+                    Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает
+                    непосредственно с кредитными организациями, предоставляющими микрозаймы
+                    в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком
+                    на 1 год с момента активации услуги!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQ End -->
+
+
+    <!-- Get Money Start -->
+    <div class="get-money">
+      <div class="container">
+        <div class="get-money__wrap">
+          <h3 class="get-money__title">Получи деньги здесь и сейчас</h3>
+          <p class="get-money__subtitle">Без проверки кредитной истории. <br>
+            От 1 000 ₽ за 15 минут.</p>
+          <button class="get-money__button">Оформить заявку</button>
+        </div>
+      </div>
+    </div>
+    <!-- Get Money End -->
+
+  </main>
+
+
+  <!-- Footer Start -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__block">
+          <a class="footer__logo" href="#!">
+            <img class="footer__logo-pic" src="./img/svg/firemoney_logo.svg" alt="Footer Logo">
+          </a>
+        </div>
+        <nav class="footer__nav">
+          <a class="footer__nav-link active">Почему мы?</a>
+          <a class="footer__nav-link">О сервисе</a>
+          <a class="footer__nav-link">Вопросы-ответы</a>
+        </nav>
+        <div class="footer__block">
+          <a href="mailto:ustohelp@gmail.com" class="mail__box">ustohelp@gmail.com</a>
+        </div>
+        <div class="footer__block">
+          <div class="footer__contacts">
+            <a href="tel:8 800 808-00-80" class="footer__contact-link active">8 800 808-00-80</a>
+          </div>
+        </div>
+      </div>
+      <hr class="white__line">
+      <div class="footer__partners">
+        <h3 class="footer__partners-title">
+          Список кредиторов
+        </h3>
+        <p class="footer__partners-list">
+          ООО "МКК СКОРФИН", 344101, г. Ростов-на-Дону, ул. Портовая, д. 193, оф. 302, Лицензия № 1703020008232, ИНН
+          3664223480, ОГРН 1163668109428, процентная ставка 0,99% в день <br>
+          ООО МФК "Быстроденьги", 123290 г. Москва, 1-й Магистральный туп., д.11 стр.10, Лицензия № 2110573000002, ИНН
+          7325081622, ОГРН 1087325005899, процентная ставка 0% в день <br>
+          ООО "МКК КАНГАРИЯ", 344101, г. Ростов-на-Дону, ул. Ленинградская, д. 7, пом. № П-13, Лицензия № 1904067009295,
+          ИНН 9201526872, ОГРН 1189204008564, процентная ставка 0% в день <br>
+          ООО МКК "Киберлэндинг", 420043, г. Казань, ул. Достоевского, д. 52, оф. 3, Лицензия № 1803392008777, ИНН
+          1659182700, ОГРН 1171690064920, процентная ставка 0% в день <br>
+          ООО МКК "Кредиттер", 115280, г. Москва, ул. Ленинская Слобода, д. 19, стр. 6, ком. 6, 7, Лицензия №
+          1903045009373, ИНН 7702463482, ОГРН 1197746100530, процентная ставка 0,99% в день <br>
+          ООО МФК "Лайм-Займ", 630102, г. Новосибирск, ул. Кирова, д. 48, оф. 1401, Лицензия № 651303045004102, ИНН
+          7724889891, ОГРН 1137746831606, процентная ставка 0% в день <br>
+          ООО МКК "Академическая", 630091, г. Новосибирск, ул. Державина, 28, оф. 301, Лицензия № 1903550009325, ИНН
+          5407973316, ОГРН 1195476007605, процентная ставка 0% в день <br>
+          ООО МКК "КАППАДОКИЯ", 443045, г. Самара, ул. Авроры, д. 150, пом. №н4, офис 306.3, Лицензия № 1903475009492,
+          ИНН 7459007268, ОГРН 1197456052199, процентная ставка 0% в день <br>
+          ООО МКК "ДЗП-Центр", 190031, г. Санкт-Петербург, пер. Спасский, д. 14/35, лит. А, пом. 38 Н, Лицензия №
+          651403140005467, ИНН 7838500558, ОГРН 1147847029990, процентная ставка 0% в день <br>
+          ООО МКК "Кватро", 443030, г. Самара, ул. Чернореченская, д. 21, оф. 425, Лицензия № 1903550009364, ИНН
+          5402053330, ОГРН 1195476044609, процентная ставка 0% в день <br>
+          ООО МКК "Турбозайм", 123290, г. Москва, туп. Магистральный 1-й, д. 11, стр.10, Лицензия № 651303045003951, ИНН
+          7702820127, ОГРН 1137746702367, процентная ставка 0,99% в день <br>
+        </p>
+      </div>
+      <hr class="white__line-second">
+      <div class="footer__what-card d-flex justify-content-between align-items-center">
+        <div class="what-card-title">
+          <h3>Какие карты принимаем</h3>
+        </div>
+        <div class="what-card-item">
+          <img src="./img/svg/yandex.svg" alt="Yandex Logo" width="74">
+        </div>
+        <div class="what-card-item">
+          <img src="./img/svg/master.svg" alt="MasterCard Logo" width="76">
+        </div>
+        <div class="what-card-item">
+          <img src="./img/svg/mir.svg" alt="Mir Logo" width="89">
+        </div>
+        <div class="what-card-custombox">
+          <p class="text-center">Мы явлемся обработчиками <a href="#!" class="text-reset">персональных данных</a></p>
+        </div>
+      </div>
+      <hr class="white__line-second">
+      <div class="footer__conditions">
+        <h3 class="footer__conditions-title">
+          Соглашения и условия
+        </h3>
+        <p class="footer__conditions-subtitle" align="justify">
+          Займы и кредиты предоставляются партнерами Imoneys Сredit на сумму от 3 000 до 1 000 000 рублей включительно
+          на срок от 13 до 260 недель. Проценты за пользование денежных средств составляют от 40 до 360 процентов
+          годовых. Расчетная сумма (основной долг и проценты) к возврату от 500 до 250 000 рублей. Условия актуальны на
+          01.06.2021 и не являются публичной офертой. Пример расчета общей стоимости займа: заём на 15 000 руб. и сроком
+          25 недель; проценты за весь период составят 5 000 руб. Итого ПСК 264,392 %. За услуги сервиса может быть взята
+          плата в размере от 48 до 446 руб. за активацию сервиса. <br> <br>
+
+          В случае невозвращения в условленный срок суммы кредита или суммы процентов за пользование заёмными средствами
+          кредитор вынуждено начислит штраф за просрочку платежа. Большинство кредиторов идут на уступки и дают 3
+          дополнительных рабочих дня для оплаты. Они предусмотрены на случай, к примеру, если банковский перевод занял
+          больше времени, чем обычно. Однако, в случае неполучения от Вас какой-либо реакции в течение продолжительного
+          времени, будет начислен штраф за просрочку срока погашения размером в среднем 0,10% от первоначальной суммы
+          для займов, 0,03% от суммы задолженности в среднем для потребительских кредитов и кредитных карт. При
+          несоблюдении Вами условий по погашению кредитов и займов, данные о Вас могут быть переданы в реестр должников
+          или БКИ, что негативно может сказаться на Вашей кредитной истории и рейтинге кредитоспособности. Рекомендуем
+          Вам вносить платеж в день получения данных напоминаний. Погашая задолженность в срок, Вы формируете хорошую
+          кредитную историю, что повышает Ваш рейтинг кредитоспособности и шансы в дальнейшем получить кредит на более
+          выгодных условиях.
+        </p>
+      </div>
+      <hr class="white__line">
+      <div class="footer__bottom d-lg-flex justify-content-between pb-4">
+        <div class="footer__bottom-copyright d-flex align-items-center">
+          <img src="./img/svg/18+.svg" alt="18+ Sing">
+          <p class="footer_copyright-title ms-5">Imoneys Сredit ©2015–2022 Все права на сайт защищены.</p>
+        </div>
+        <div class="footer__bottom-social d-flex">
+          <button type="button" class="btn btn-outline-light me-5">отписаться</button>
+          <div class="social d-flex align-items-center gap-5">
+            <a href="https://www.youtube.com/">
+              <img class="vertical-line" src="./img/svg/youtube.svg" alt="Youtube Sign" width="22">
+            </a>
+            <a href="https://www.instagram.com/">
+              <img class="vertical-line" src="./img/svg/instagram.svg" alt="Instagram Sign" width="19">
+            </a>
+            <a href="https://www.facebook.com/">
+              <img src="./img/svg/facebook.svg" alt="Facebook Sign" width="11">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Start -->
+
+
+
+  <!-- Scripts Start -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+
+  <script src="./js/progress.js"></script>
+  <!-- Scripts End -->
+
+</body>
+
+</html>
